@@ -2,8 +2,8 @@ import os
 import sys
 import subprocess
 
-
 def clear():
+    # Clear the console screen
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def create_bins(original_list, num_bins):
@@ -72,7 +72,6 @@ def run_commands(cmds):
     chunk_size = 99
     for i in range(0, len(cmds), chunk_size):
         subprocess.run(["powershell", "-Command", '\n'.join(cmds[i:i + chunk_size])])
-
 
 # Validate path from input
 UNCpath = False
