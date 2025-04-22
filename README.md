@@ -1,8 +1,8 @@
-# Domain.com.au Scraper
+# PDF Binner
 
 A command-line Python tool for sorting PDF files into X number of bins.
 
-The original use case for this tool was to easily allocate multiple computers' OCR capabilities over a set of PDF files by dividing the files into subfolders.
+The original use case for this tool was to easily allocate multiple computers' OCR resources over a set of PDF files by dividing the files into subfolders.
 
 ---
 
